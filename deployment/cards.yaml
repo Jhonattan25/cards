@@ -16,7 +16,7 @@ spec:
     spec: 
       containers:
         - name: cards
-          image: jhonattan25/app-microservicios-cards:1.0.0
+          image: jhonattan25/app-microservicios-cards:tagversion
           ports:
           - containerPort: 9000
           env:
